@@ -8,6 +8,6 @@ public class Main {
 
         System.out.println("Enter two number:");
         String firstNum = input.nextLine();
-        System.out.println("Your Input was: "+ firstNum);
+        System.out.println("The Input was: "+ firstNum);
     }
 }
