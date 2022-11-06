@@ -35,6 +35,7 @@ public class switchCase {
             case "Grapes" -> {
                 System.out.print("Which Type of Grape? \n1.Black\n2.Green\n: ");
                 int typeOfGrape = in.nextInt();
+                
                 switch (typeOfGrape){
                     case 1 -> System.out.println("You chose Black Grapes! That's a great choice!");
                     case 2 -> System.out.println("You chose Green Grapes! That's also a great choice!");
