@@ -8,9 +8,11 @@ public class Recursion {
     }
 
     static void print(int n){
-        if(n<=5) {
+        if(n<=5) { //Base Condition: A condition that stops recursion.
+            //If base condition as not put, there will be a point where the machine will run out of memory.
+            //This condition is called *Stack Overflow*
             System.out.println(n);
-            print(n + 1);
+            print(n + 1); //Recursive call
         }
 
     }
