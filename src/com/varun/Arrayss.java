@@ -2,7 +2,7 @@ package com.varun;
 
 import java.util.Scanner;
 
-public class Arrays {
+public class Arrayss {
     public static void main(String[] args) {
         //syntax
         //datatype[] name = new datatype[size];
@@ -22,4 +22,5 @@ public class Arrays {
         }
         //System.out.println(java.util.Arrays.toString(rnos));
     }
+
 }
