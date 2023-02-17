@@ -24,8 +24,6 @@ public class TowerOfHanoi {
             System.out.println("Disk " +n+" moved from "+src+ " to "+dest);
             towerOfHanoi(n-1, helper, dest, src);
 
-
-
         }
     }
 }
