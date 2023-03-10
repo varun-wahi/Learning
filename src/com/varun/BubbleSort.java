@@ -23,7 +23,6 @@ public class BubbleSort {
                     array[j-1] = array[j];
                     array[j] = temp;
                     swapped = true;
-
                 }
             }
             if(!swapped){
