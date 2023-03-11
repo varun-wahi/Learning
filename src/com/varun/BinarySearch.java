@@ -15,7 +15,8 @@ public class BinarySearch {
         System.out.println(Arrays.toString(array));
 
         System.out.print("Enter the number you want to search: ");
-        int elem = input.nextInt();
+//        int elem = input.nextInt();
+        int elem = 67;
 
         System.out.println(binarySearch(array, elem));
 
