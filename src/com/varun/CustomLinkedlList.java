@@ -108,6 +108,7 @@ public class CustomLinkedlList {
     }
 
     public void printList() {
+        System.out.println();
         Node temp = head;
         while (temp != null) {
             System.out.print(temp.value + " -> ");

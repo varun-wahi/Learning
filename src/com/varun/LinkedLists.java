@@ -19,5 +19,13 @@ public class LinkedLists {
         list.printList();
         list.deleteFromIndex(2);
         list.printList();
+        CustomDoublyLinkedList dList = new CustomDoublyLinkedList();
+        dList.insertFirst(21);
+        dList.insertFirst(31);
+        dList.insertFirst(41);
+        dList.insertFirst(51);
+        dList.insertLast(73);
+        dList.printList();
+        dList.printListReverse();
     }
 }
