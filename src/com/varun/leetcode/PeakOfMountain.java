@@ -2,10 +2,12 @@ package com.varun.leetcode;
 
 public class PeakOfMountain {
     public static void main(String[] args) {
+        int[] array = {4,5,6,7,0,1,2};
 
+        System.out.println(peakIndexInMountainArray(array));
     }
 
-    public int peakIndexInMountainArray(int[] arr, int target){
+    public static int peakIndexInMountainArray(int[] arr){
         int start, end;
         start =0;
         end = arr.length-1;
