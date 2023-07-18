@@ -22,6 +22,10 @@ public class CustomLinkedlList {
         size++;
     }
 
+    public void insertUsingRecursion(int value, int index){
+
+    }
+
     public void insertLast(int val) {
         Node node = new Node(val);
         tail.next = node;

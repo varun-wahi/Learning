@@ -27,5 +27,12 @@ public class LinkedLists {
         dList.insertLast(73);
         dList.printList();
         dList.printListReverse();
+
+        CircularLinkedList cList = new CircularLinkedList();
+        cList.insert(2);
+        cList.insert(3);
+        cList.insert(4);
+        cList.insert(1);
+        cList.display();
     }
 }
